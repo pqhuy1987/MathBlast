@@ -261,6 +261,7 @@
 		52B2BA051794BB1A003BF16C /* highscores.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B2BA041794BB1A003BF16C /* highscores.png */; };
 		52B2BA081794BB63003BF16C /* Leaderboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2BA071794BB63003BF16C /* Leaderboards.m */; };
 		52B2BA0B1794BE95003BF16C /* longbackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B2BA0A1794BE95003BF16C /* longbackbutton.png */; };
+		977ACE1C1E21F3FA007B0694 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977ACE1B1E21F3FA007B0694 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -729,6 +730,7 @@
 		52B2BA061794BB63003BF16C /* Leaderboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaderboards.h; sourceTree = "<group>"; };
 		52B2BA071794BB63003BF16C /* Leaderboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaderboards.m; sourceTree = "<group>"; };
 		52B2BA0A1794BE95003BF16C /* longbackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = longbackbutton.png; sourceTree = "<group>"; };
+		977ACE1B1E21F3FA007B0694 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -839,6 +841,7 @@
 		527881291721E98E00EF9AD4 = {
 			isa = PBXGroup;
 			children = (
+				977ACE1B1E21F3FA007B0694 /* Media.xcassets */,
 				527881471721E98E00EF9AD4 /* MathBlast */,
 				527881341721E98E00EF9AD4 /* Frameworks */,
 				527881331721E98E00EF9AD4 /* Products */,
@@ -1641,6 +1644,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977ACE1C1E21F3FA007B0694 /* Media.xcassets in Resources */,
 				5278814A1721E98E00EF9AD4 /* Default.png in Resources */,
 				5278814C1721E98E00EF9AD4 /* Default@2x.png in Resources */,
 				5278814E1721E98E00EF9AD4 /* Default-568h@2x.png in Resources */,
@@ -1946,6 +1950,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = JQNK74493B;
@@ -1965,7 +1970,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.monters.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"MathBlast/libs\"";
 				WRAPPER_EXTENSION = app;
@@ -1976,6 +1981,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = JQNK74493B;
@@ -1994,7 +2000,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.monters.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"MathBlast/libs\"";
 				VALIDATE_PRODUCT = YES;
