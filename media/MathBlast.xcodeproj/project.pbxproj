@@ -37,7 +37,6 @@
 		527881401721E98E00EF9AD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278813F1721E98E00EF9AD4 /* UIKit.framework */; };
 		527881421721E98E00EF9AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527881411721E98E00EF9AD4 /* Foundation.framework */; };
 		527881441721E98E00EF9AD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527881431721E98E00EF9AD4 /* CoreGraphics.framework */; };
-		527881461721E98E00EF9AD4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527881451721E98E00EF9AD4 /* GameKit.framework */; };
 		5278814A1721E98E00EF9AD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 527881491721E98E00EF9AD4 /* Default.png */; };
 		5278814C1721E98E00EF9AD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5278814B1721E98E00EF9AD4 /* Default@2x.png */; };
 		5278814E1721E98E00EF9AD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5278814D1721E98E00EF9AD4 /* Default-568h@2x.png */; };
@@ -261,6 +260,8 @@
 		52B2BA051794BB1A003BF16C /* highscores.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B2BA041794BB1A003BF16C /* highscores.png */; };
 		52B2BA081794BB63003BF16C /* Leaderboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2BA071794BB63003BF16C /* Leaderboards.m */; };
 		52B2BA0B1794BE95003BF16C /* longbackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B2BA0A1794BE95003BF16C /* longbackbutton.png */; };
+		977ACE1C1E21F3FA007B0694 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977ACE1B1E21F3FA007B0694 /* Media.xcassets */; };
+		977ACE201E21F76B007B0694 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ACE1F1E21F76B007B0694 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -301,7 +302,6 @@
 		5278813F1721E98E00EF9AD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		527881411721E98E00EF9AD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		527881431721E98E00EF9AD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		527881451721E98E00EF9AD4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		527881491721E98E00EF9AD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		5278814B1721E98E00EF9AD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		5278814D1721E98E00EF9AD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -729,6 +729,8 @@
 		52B2BA061794BB63003BF16C /* Leaderboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaderboards.h; sourceTree = "<group>"; };
 		52B2BA071794BB63003BF16C /* Leaderboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaderboards.m; sourceTree = "<group>"; };
 		52B2BA0A1794BE95003BF16C /* longbackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = longbackbutton.png; sourceTree = "<group>"; };
+		977ACE1B1E21F3FA007B0694 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		977ACE1F1E21F76B007B0694 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -736,6 +738,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977ACE201E21F76B007B0694 /* GameKit.framework in Frameworks */,
 				527881361721E98E00EF9AD4 /* QuartzCore.framework in Frameworks */,
 				527881381721E98E00EF9AD4 /* OpenGLES.framework in Frameworks */,
 				5278813A1721E98E00EF9AD4 /* OpenAL.framework in Frameworks */,
@@ -744,7 +747,6 @@
 				527881401721E98E00EF9AD4 /* UIKit.framework in Frameworks */,
 				527881421721E98E00EF9AD4 /* Foundation.framework in Frameworks */,
 				527881441721E98E00EF9AD4 /* CoreGraphics.framework in Frameworks */,
-				527881461721E98E00EF9AD4 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,6 +841,7 @@
 		527881291721E98E00EF9AD4 = {
 			isa = PBXGroup;
 			children = (
+				977ACE1B1E21F3FA007B0694 /* Media.xcassets */,
 				527881471721E98E00EF9AD4 /* MathBlast */,
 				527881341721E98E00EF9AD4 /* Frameworks */,
 				527881331721E98E00EF9AD4 /* Products */,
@@ -856,6 +859,7 @@
 		527881341721E98E00EF9AD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				977ACE1F1E21F76B007B0694 /* GameKit.framework */,
 				527881351721E98E00EF9AD4 /* QuartzCore.framework */,
 				527881371721E98E00EF9AD4 /* OpenGLES.framework */,
 				527881391721E98E00EF9AD4 /* OpenAL.framework */,
@@ -864,7 +868,6 @@
 				5278813F1721E98E00EF9AD4 /* UIKit.framework */,
 				527881411721E98E00EF9AD4 /* Foundation.framework */,
 				527881431721E98E00EF9AD4 /* CoreGraphics.framework */,
-				527881451721E98E00EF9AD4 /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1615,7 +1618,12 @@
 				ORGANIZATIONNAME = JRamos;
 				TargetAttributes = {
 					527881311721E98E00EF9AD4 = {
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = 7A3KSATNU7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1641,6 +1649,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977ACE1C1E21F3FA007B0694 /* Media.xcassets in Resources */,
 				5278814A1721E98E00EF9AD4 /* Default.png in Resources */,
 				5278814C1721E98E00EF9AD4 /* Default@2x.png in Resources */,
 				5278814E1721E98E00EF9AD4 /* Default-568h@2x.png in Resources */,
@@ -1905,7 +1914,7 @@
 		527883761721E99400EF9AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1926,7 +1935,7 @@
 		527883771721E99400EF9AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1946,9 +1955,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 7A3KSATNU7;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MathBlast/Misc/Prefix.pch;
@@ -1965,7 +1975,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.mathblast.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"MathBlast/libs\"";
 				WRAPPER_EXTENSION = app;
@@ -1976,9 +1986,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 7A3KSATNU7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MathBlast/Misc/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1994,7 +2005,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.mathblast.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"MathBlast/libs\"";
 				VALIDATE_PRODUCT = YES;
